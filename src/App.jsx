@@ -9,7 +9,7 @@ import Sidebar from "./sences/global/SideBar.jsx";
 import Team from "./sences/team";
 import Invoices from "./sences/invoices";
 import Contacts from "./sences/contacts";
-// import Bar from "./sences/bar";
+import Bar from "./sences/bar";
 import Form from "./sences/form";
 // import Line from "./sences/line";
 // import Pie from "./sences/pie";
@@ -34,7 +34,7 @@ const [theme,colorMode]=useMode()
                 <Route path={'/team'} element={<Team/>} />
                 <Route path={'/contacts'} element={<Contacts/>} />
                 <Route path={'/invoices'} element={<Invoices/>} />
-                {/*<Route path={'/bar'} element={<Bar/>} />*/}
+                <Route path={'/bar'} element={<Bar/>} />
                 <Route path={'/form'} element={<Form/>} />
                 {/*<Route path={'/line'} element={<Line/>} />*/}
                 {/*<Route path={'/pie'} element={<Pie/>} />*/}
