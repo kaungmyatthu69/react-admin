@@ -51,9 +51,11 @@ const SideBar = () => {
                 },
                 "& .ps-menu-button": {
                     backgroundColor: "transparent !important",
+
                 },
-                // "& .ps-menu-root": {
-                //     padding: "5px 35px 5px 20px !important",
+                // "& .MuiBox-root": {
+                // padding: "5px 35px 5px 20px !important",
+                //
                 // },
                 "& .ps-menu-button:hover": {
                     color: "#868dfb !important",
