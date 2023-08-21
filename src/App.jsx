@@ -10,12 +10,12 @@ import Team from "./sences/team";
 import Invoices from "./sences/invoices";
 import Contacts from "./sences/contacts";
 // import Bar from "./sences/bar";
-// import Form from "./sences/form";
+import Form from "./sences/form";
 // import Line from "./sences/line";
 // import Pie from "./sences/pie";
-// import FAQ from "./sences/faq";
+import FAQ from "./sences/faq";
 // import Geography from "./sences/geography"
-// import Calendar from "./sences/calendar"
+import Calendar from "./sences/calendar"
 function App() {
 const [theme,colorMode]=useMode()
 
@@ -35,12 +35,12 @@ const [theme,colorMode]=useMode()
                 <Route path={'/contacts'} element={<Contacts/>} />
                 <Route path={'/invoices'} element={<Invoices/>} />
                 {/*<Route path={'/bar'} element={<Bar/>} />*/}
-                {/*<Route path={'/form'} element={<Form/>} />*/}
+                <Route path={'/form'} element={<Form/>} />
                 {/*<Route path={'/line'} element={<Line/>} />*/}
                 {/*<Route path={'/pie'} element={<Pie/>} />*/}
-                {/*<Route path={'/faq'} element={<FAQ/>} />*/}
+                <Route path={'/faq'} element={<FAQ/>} />
                 {/*<Route path={'/geography'} element={<Geography/>} />*/}
-                {/*<Route path={'/calendar'} element={<Calendar/>} />*/}
+                <Route path={'/calendar'} element={<Calendar/>} />
               </Routes>
             </main>
 
